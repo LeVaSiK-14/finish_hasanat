@@ -1,0 +1,140 @@
+div.all-content{
+	width: 100%;
+}
+h4.title{
+	font-weight: bold;
+}
+h2.title{
+	font-weight: bold;
+	max-width: 55%;
+}
+p.subtitle{
+	max-width: 60%;
+	margin-top: 40px;
+}
+div.img{
+	width: 100%;
+} 
+img.img{
+	width: 100%;
+	margin-top: 30px;
+}
+p{
+	font-weight: 400;
+	color: #555;
+}
+div.all-content2{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+div.imgs{
+	width: 49%;
+}
+div.imgs img.imgg{
+	width: 100%;
+}
+div.text{
+	width: 49%;
+}
+div.three-img{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 70px;
+}
+div.img3{
+	width: 31%;
+}
+div.img3 img.img{
+	width: 100%;
+}
+p.text-s{
+	width: 60%;
+	margin-top: 60px;
+}
+
+h5.title{
+	width: 50%;
+	color: #444;
+	font-weight: bold;
+	margin-top: 70px;
+}
+p.t{
+	max-width: 50%;
+}
+
+div.cardd{
+	width: 31%;
+	margin-top: 40px;
+}
+div.cardd a img.img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+a.text-href{
+	color: black;
+	font-weight: bold;
+
+}
+a.text-href:hover{
+	color:  black;
+	text-decoration: underline;
+}
+svg.pub__svg-icon{
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 1090px){
+	h2.title{
+		max-width: 100%;
+	}
+	p.text-subtitle{
+		max-width: 100%;
+	}
+	p.text-title{
+		max-width: 100%;
+	}
+	div.three-bloks{
+		width: 100%;
+		display: block;
+	}
+	div.block{
+		width: 100%;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	h2.title{
+		max-width: 100%;
+	}
+	p.subtitle{
+		max-width: 100%;
+	}
+	div.all-content2{
+		display: block;
+	}
+	div.imgs{
+		width: 100%;
+	}
+	div.text{
+		width: 100%;
+	}
+	div.three-img{
+		display: block;
+	}
+	div.img3{
+		width: 100%;
+	}
+	p.text-s{
+		width: 100%;
+	}
+	h5.title{
+		width: 100%;
+	}
+	p.t{
+		max-width: 100%;
+	}
+}

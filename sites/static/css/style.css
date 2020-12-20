@@ -1,0 +1,2694 @@
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/main.4f16b2f0232fa4b9348b.css */
+
+* {
+    font-family: 'Noto Sans', sans-serif !important; 
+
+}
+
+/*CHANGE*/
+button:active , button:focus{
+    outline: none !important;
+}
+/* CHANGE */
+
+p, li, span, label{
+    font-size: 18px;
+}
+.ftr{
+    margin-top: 50px;
+}
+.wrapper-fluid section{
+    padding-bottom: 50px;
+}
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: bold !important;
+    margin-left: -16px;
+    font-size: 22px;
+}
+h1, h2. h3, h4, h5, h6{
+    font-weight: bold;
+}
+footer{
+    margin-left: 140px;
+    margin-right: 40px;
+}
+.containersss{
+    width: 100%;
+}
+div.all-text div.title h3.title{
+    font-size: 22px;
+    margin-left: 16px;
+    margin-right: 32px;
+    height: 100px;
+}
+
+h3.title{
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+div.all-text div.title h3.title:hover{
+    text-decoration: underline;
+    color: #014681;
+}
+/*span.pub__btn__inner:hover{
+    background-color: #eaeaea;
+    opacity: 0.3;
+}
+*/
+div.title h3.title{
+    font-size: 22px;
+}
+header{
+    margin-left: 140px;
+    margin-right: 40px;
+    height: 90px;
+}
+.header{
+    padding-top: 28px;
+    height: 100%;
+}
+.header-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.header-logo{
+    width: 150px;
+}
+
+div.img img.img{
+    width: 100%;
+}
+h2.g1xk08ng h2.pub__h2 h2.s1gshh7t{
+    font-size: 22px;
+}
+div.
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+div.wrapper{
+    margin-left: 140px;
+    margin-right: 40px;
+}
+@media screen and (max-width: 1000px){
+    div.wrapper{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    header{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .header-logo{
+        margin-left: calc(50% - 75px);
+    }
+
+}
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+button,
+[type="button"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    outline: none;
+}
+
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.hnf-svg-icon {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+    fill: currentColor;
+    transition-property: transform, fill;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hnf-btn {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.42857;
+    padding: 0;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    cursor: pointer;
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 52px;
+    vertical-align: top;
+}
+
+.hnf-btn .hnf-btn__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transform: translateY(0);
+    transition-property: opacity, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+}
+
+.hnf-btn:hover,
+.hnf-btn:active,
+.hnf-btn:focus {
+    text-decoration: none;
+}
+
+.hnf-btn .hnf-svg-icon {
+    flex-shrink: 0;
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+    fill: currentColor;
+    transition-property: transform, fill;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hnf-btn__inner--icon-tertiary {
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    background: rgba(0, 0, 0, 0);
+    color: #111;
+    border-radius: 52px;
+    padding: 0 1rem;
+    color: #111;
+}
+
+.hnf-btn__inner--icon-tertiary.hnf-btn--small {
+    padding: 0 .5rem;
+}
+
+.hnf-btn__inner--icon-tertiary:hover {
+    background-color: #f5f5f5;
+    color: #111;
+}
+
+.hnf-btn__inner--icon-tertiary:active {
+    background-color: #dfdfdf;
+    color: #111;
+}
+
+.hnf-btn__inner--icon-tertiary:disabled {
+    background: #dfdfdf;
+    color: #929292;
+    cursor: default;
+}
+
+.hnf-btn--small {
+    height: 2.5rem;
+    padding: 0 1.5rem;
+    font-size: .75rem;
+    line-height: 1.33333;
+}
+
+.hnf-btn:disabled>.hnf-btn__inner {
+    background: #dfdfdf;
+    color: #929292;
+    cursor: default;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+.hnf-page-container {
+    max-width: 112rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+}
+
+@media (min-width: 37.5em) {
+    .hnf-page-container {
+        padding: 0 1.875rem;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .hnf-page-container {
+        padding: 0 3.125rem;
+    }
+}
+
+@media (min-width: 75em) {
+    .hnf-page-container {
+        padding: 0 2.5rem 0 1.25rem;
+    }
+}
+
+@media (min-width: 75em) {
+    .hnf-page-container__inner {
+        display: -ms-grid;
+        display: grid;
+        grid-column-gap: 1.25rem;
+        -ms-grid-columns: (minmax(0, 1fr))[13];
+        grid-template-columns: repeat(13, minmax(0, 1fr));
+        margin: 0 -.625rem;
+    }
+    .hnf-page-container__aside {
+        -ms-grid-column: 1;
+        grid-column: 1;
+        -ms-grid-row: 1;
+        grid-row: 1;
+        -ms-grid-row-align: end;
+        align-self: end;
+        align-self: flex-end;
+        margin: 0 .625rem;
+    }
+}
+
+.hnf-btn--icon-tertiary {
+    display: inline-block;
+    height: auto;
+}
+
+.hnf-header-hamburger {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    pointer-events: none;
+    position: fixed;
+}
+
+@media screen and (max-width: 1000px) {
+    .hnf-header-hamburger {
+        position: absolute;
+    }
+}
+
+@media (min-width: 75em) {
+    .hnf-header-hamburger {
+        display: block;
+    }
+}
+
+.hnf-header-hamburger .hnf-page-container__inner {
+    position: absolute;
+    left: 1.25rem;
+    right: 3.125rem;
+}
+
+.hnf-header-hamburger .hnf-page-container__aside {
+    pointer-events: all;
+    display: flex;
+    /*justify-content: center;
+    align-items: center;
+    -ms-grid-row-align: center;
+    align-self: center;*/
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 92px;
+}
+
+@media screen and (max-width: 400px) {
+    .hnf-header-hamburger .hnf-page-container__aside {
+        margin-left: 0;
+    }
+}
+
+
+.hnf-header-hamburger .hnf-page-container__aside .hnf-btn--icon-tertiary {
+    height: 2.5rem;
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/products/stylesheets/price-package-styles.a7ae55e05e44408d7874.css */
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/main.4f16b2f0232fa4b9348b.css */
+
+img {
+    border-style: none;
+}
+
+button,
+input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+button,
+[type="button"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    outline: none;
+}
+
+a,
+button {
+    position: relative;
+}
+
+
+a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+a:focus,
+a:active {
+    color: #111;
+}
+
+button,
+input {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input[type="search"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+.hnf-svg-icon {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    vertical-align: middle;
+    fill: currentColor;
+    transition-property: transform, fill;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hnf-btn {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.42857;
+    padding: 0;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    cursor: pointer;
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 52px;
+    vertical-align: top;
+}
+
+.hnf-btn .hnf-btn__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transform: translateY(0);
+    transition-property: opacity, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+}
+
+.hnf-btn:hover,
+.hnf-btn:active,
+.hnf-btn:focus {
+    text-decoration: none;
+}
+
+.hnf-btn .hnf-svg-icon {
+    flex-shrink: 0;
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+    fill: currentColor;
+    transition-property: transform, fill;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hnf-btn__inner--icon-tertiary {
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    background: rgba(0, 0, 0, 0);
+    color: #111;
+    border-radius: 52px;
+    padding: 0 1rem;
+    color: #111;
+}
+
+.hnf-btn__inner--icon-tertiary.hnf-btn--small {
+    padding: 0 .5rem;
+}
+
+.hnf-btn__inner--icon-tertiary:hover {
+    background-color: #f5f5f5;
+    color: #111;
+}
+
+.hnf-btn__inner--icon-tertiary:active {
+    background-color: #dfdfdf;
+    color: #111;
+}
+
+.hnf-btn__inner--icon-tertiary:disabled {
+    background: #dfdfdf;
+    color: #929292;
+    cursor: default;
+}
+
+.hnf-btn--small {
+    height: 2.5rem;
+    padding: 0 1.5rem;
+    font-size: .75rem;
+    line-height: 1.33333;
+}
+
+.hnf-btn:disabled>.hnf-btn__inner {
+    background: #dfdfdf;
+    color: #929292;
+    cursor: default;
+}
+
+.hnf-link {
+    text-decoration: none;
+    font-weight: 400;
+    color: #484848;
+}
+
+.hnf-link:focus,
+.hnf-link:hover {
+    text-decoration: underline;
+    color: #111;
+}
+
+.hnf-link:active {
+    text-decoration: underline;
+    color: #111;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+.hnf-page-container {
+    max-width: 112rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+}
+
+@media (min-width: 37.5em) {
+    .hnf-page-container {
+        padding: 0 1.875rem;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .hnf-page-container {
+        padding: 0 3.125rem;
+    }
+}
+
+@media (min-width: 75em) {
+    .hnf-page-container {
+        padding: 0 2.5rem 0 1.25rem;
+    }
+}
+
+@media (min-width: 75em) {
+    .hnf-page-container__inner {
+        display: -ms-grid;
+        display: grid;
+        grid-column-gap: 1.25rem;
+        -ms-grid-columns: (minmax(0, 1fr))[13];
+        grid-template-columns: repeat(13, minmax(0, 1fr));
+        margin: 0 -.625rem;
+    }
+    .hnf-page-container__main {
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 12;
+        grid-column: 2 / 14;
+        -ms-grid-row: 1;
+        grid-row: 1;
+        margin: 0 .625rem;
+    }
+}
+
+.hnf-btn--icon-tertiary {
+    display: inline-block;
+    height: auto;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+2
+
+.pub__designSystemBase img {
+    border-style: none;
+}
+
+.pub__designSystemBase button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.pub__designSystemBase button {
+    overflow: visible;
+}
+
+.pub__designSystemBase button {
+    text-transform: none;
+}
+
+.pub__designSystemBase button,
+.pub__designSystemBase [type="button"] {
+    -webkit-appearance: button;
+}
+
+.pub__designSystemBase button::-moz-focus-inner,
+.pub__designSystemBase [type="button"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+.pub__designSystemBase button:-moz-focusring,
+.pub__designSystemBase [type="button"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+.pub__designSystemBase *,
+.pub__designSystemBase *::before,
+.pub__designSystemBase *::after {
+    box-sizing: inherit;
+    outline: none;
+}
+
+.pub__btn {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.5;
+    padding: 0;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    cursor: pointer;
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 64px;
+    vertical-align: top;
+
+}
+.pub__btn2 {
+    margin-left: 24px;
+}
+@media screen and (max-width: 920px) {
+    .pub__btn2  {
+        margin-left: 0;
+    }
+}
+.pub__btn .pub__btn__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    transition-property: opacity, transform, -webkit-transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+}
+
+.pub__btn:hover,
+.pub__btn:active,
+.pub__btn:focus {
+    text-decoration: none;
+}
+
+.pub__btn .pub__svg-icon {
+    flex-shrink: 0;
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+    fill: currentColor;
+    transition-property: fill, -webkit-transform;
+    transition-property: transform, fill;
+    transition-property: transform, fill, -webkit-transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+}
+
+.pub__btn__inner--icon-primary-inverse {
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    background: #fff;
+    color: #111;
+    border-radius: 64px;
+    padding: 0 1rem;
+    color: #111;
+}
+
+.pub__btn__inner--icon-primary-inverse:hover {
+    background-color: #f5f5f5;
+    color: #111;
+}
+
+.pub__btn__inner--icon-primary-inverse:active {
+    background-color: #dfdfdf;
+    color: #111;
+}
+
+.pub__btn__inner--icon-primary-inverse:disabled {
+    background: #dfdfdf;
+    color: #929292;
+    cursor: default;
+}
+
+.pub__btn__inner--icon-primary {
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    background: #111;
+    color: #fff;
+    border-radius: 64px;
+    padding: 0 1rem;
+    color: #fff;
+}
+
+.pub__btn__inner--icon-primary.pub__btn--small {
+    padding: 0 .5rem;
+}
+
+.pub__btn__inner--icon-primary:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.pub__btn__inner--icon-primary:active {
+    background-color: #000;
+    color: #fff;
+}
+
+.pub__btn__inner--icon-primary:disabled {
+    background: #dfdfdf;
+    color: #929292;
+    cursor: default;
+}
+
+.pub__btn--small {
+    height: 2.5rem;
+    padding: 0 1.5rem;
+    font-size: .75rem;
+    line-height: 1.33333;
+}
+
+.pub__btn:disabled>.pub__btn__inner {
+    background: #dfdfdf;
+    color: #929292;
+    cursor: default;
+}
+
+.pub__btn:disabled .pub__btn__inner--icon-primary-inverse {
+    background: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+.pub__svg-icon {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+    fill: currentColor;
+    transition-property: fill, -webkit-transform;
+    transition-property: transform, fill;
+    transition-property: transform, fill, -webkit-transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+}
+
+.pub__aspect-ratio-image {
+    width: 100%;
+    position: relative;
+    height: auto;
+    display: block;
+    padding-bottom: 75%;
+    background: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.pub__aspect-ratio-image__image {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: "object-fit: cover;";
+    color: transparent;
+}
+
+.pub__aspect-ratio-image--square {
+    padding-bottom: 100%;
+}
+
+.pub__link {
+    text-decoration: underline;
+    font-weight: 400;
+    color: #484848;
+}
+
+.pub__link:focus,
+.pub__link:hover {
+    color: #111;
+}
+
+.pub__link:active {
+    color: #111;
+}
+
+.pub__link--black {
+    color: #111;
+}
+
+.pub__link--black:hover,
+.pub__link--black:focus,
+.pub__link--black:active {
+    color: #333;
+}
+
+h3 .pub__link {
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+h3 .pub__link:hover,
+h3 .pub__link:focus,
+h3 .pub__link:active {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #111;
+    font-size: 1.125rem;
+    line-height: 1.44444;
+    font-weight: 700;
+}
+
+@media (min-width: 37.5em) {
+    h2 {
+        font-size: 1.375rem;
+        line-height: 1.45455;
+    }
+}
+
+h3 {
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.pub__h2 {
+    color: #111;
+    font-size: 1.125rem;
+    line-height: 1.44444;
+    font-weight: 700;
+}
+
+@media (min-width: 37.5em) {
+    .pub__h2 {
+        font-size: 1.375rem;
+        line-height: 1.45455;
+    }
+}
+
+.pub__h3 {
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.pub__carousel {
+    position: relative;
+}
+
+.pub__carousel__skip-button {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    margin: -1px;
+    white-space: nowrap;
+}
+
+.pub__carousel__skip-button:active {
+    width: auto;
+    height: auto;
+    left: 1.5rem;
+    top: 1.5rem;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    z-index: 1;
+}
+
+.pub__carousel__wrapper {
+    position: relative;
+}
+
+.pub__carousel__content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    padding-top: .25rem;
+    padding-bottom: 1.5rem;
+}
+
+.pub__carousel__content::-webkit-scrollbar {
+    display: none;
+}
+
+.pub__carousel__content--single-slide {
+    overflow: hidden;
+}
+
+.pub__carousel__body {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -.625rem;
+    margin-left: -.625rem;
+}
+
+.pub__carousel__button {
+    position: absolute;
+    top: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 200ms, visibility 0 200ms;
+    cursor: pointer;
+    z-index: 1;
+    left: -1.25rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.pub__carousel:hover .pub__carousel__button {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    transition: opacity 200ms, visibility 0 0;
+}
+
+.pub__carousel:hover .pub__carousel__button--hidden {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms, visibility 0 200ms;
+}
+
+.pub__carousel__button--right {
+    left: auto;
+    right: -1.25rem;
+}
+
+.pub__carousel-slide {
+    max-width: 100%;
+    position: relative;
+    flex-shrink: 0;
+    margin-left: .625rem;
+    margin-right: .625rem;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+    .pub__carousel__content {
+        -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    }
+}
+
+@media (hover: none) {
+    .pub__carousel:hover .pub__carousel__button {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .pub__carousel__content {
+        top: 0;
+        padding-left: 0;
+    }
+    .pub__carousel__wrapper {
+        bottom: auto;
+        width: 100%;
+    }
+    .pub__carousel__button {
+        display: block;
+    }
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/stylesheets/main.ec83359ac00325a5388f.css */
+
+.i1qujgyz {
+    display: inline;
+}
+
+.d1nywps6 {
+    -webkit-text-decoration: none!important;
+    text-decoration: none!important;
+}
+
+.d1nywps6:hover {
+    -webkit-text-decoration: underline!important;
+    text-decoration: underline!important;
+}
+
+.s8monoq {
+    align-items: stretch;
+}
+
+.g1mfmhmf {
+    background-color: #f5f5f5;
+}
+
+@media (min-width:37.5em) {
+    .c3d8w3p {
+        width: calc(12 / 12 * 100%);
+    }
+}
+
+@media (min-width:56.25em) {
+    .c10gffbo {
+        width: 100%;
+    }
+}
+
+.c66rnvm {
+    flex-direction: column;
+}
+
+@media (min-width:37.5em) {
+    .crxip6q {
+        flex-direction: column;
+    }
+}
+
+.f1q5w654 {
+    display: flex;
+}
+
+.g16gpiby {
+    flex: 1 1 auto;
+}
+
+.b1u0rahl {
+    justify-content: space-between;
+}
+
+.b1lvk80c {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.lm3kmok {
+    padding: 2rem;
+}
+
+@media (min-width:56.25em) {
+    .l10lfbpf {
+        padding: 2rem;
+    }
+}
+
+.v18by0fb {
+    flex-direction: column;
+}
+
+.f1dbvbh0 {
+    display: flex;
+}
+
+.gqfus6o {
+    flex: 1 1 auto;
+}
+
+.bgrf0js {
+    justify-content: space-between;
+}
+
+.vfh8y1x>* {
+    margin-bottom: 2rem!important;
+}
+
+.v15nrngf>* {
+    margin-bottom: calc( 2rem + 2rem)!important;
+}
+
+.g1ci6p1l>*:last-child {
+    margin-bottom: 0!important;
+}
+
+.s1gshh7t {
+    font-weight: bold;
+    margin: 0;
+    word-break: break-word;
+}
+
+@media (min-width:56.25em) {
+    .c1lc5xb3 {
+        width: calc(7 / 12 * 100%);
+    }
+}
+
+.t91kxqv {
+    font-style: normal;
+    font-weight: normal;
+    word-break: break-word;
+}
+
+.b16i9awf {
+    font-weight: bold;
+}
+
+.w8b8hey {
+    height: 100%;
+}
+
+.w8b8hey .pub__aspect-ratio-image {
+    height: 100%;
+}
+
+.b1fbln9t {
+    align-self: flex-start;
+}
+
+.c4pwwkx {
+    margin: 0 -1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+@media (min-width:37.5em) {
+    .c4pwwkx {
+        margin: 0 -2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width:56.25em) {
+    .c4pwwkx {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.bpftgzm>.pub__carousel__body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.i12pyk82 {
+    display: flex;
+    flex-basis: calc(100% - 1.25rem);
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.i12pyk82:not(:last-child) {
+    margin-right: 1.25rem;
+}
+
+.i12pyk82:last-child {
+    flex-basis: 100%;
+    padding-right: 1.25rem;
+}
+
+@media (min-width:37.5em) {
+    .i12pyk82 {
+        flex-basis: calc(50% - (0.5rem / 2));
+    }
+    .i12pyk82:not(:last-child) {
+        margin-right: 0.5rem;
+    }
+    .i12pyk82:last-child {
+        flex-basis: calc( 50% - (0.5rem / 2) + 2rem);
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width:56.25em) {
+    .i12pyk82 {
+        flex-basis: calc((100% - 1.25rem * 2) / 3);
+    }
+    .i12pyk82:not(:last-child) {
+        margin-right: 1.25rem;
+    }
+    .i12pyk82:last-child {
+        flex-basis: calc((100% - 1.25rem * 2) / 3);
+        padding-right: 0;
+    }
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/main.4f16b2f0232fa4b9348b.css */
+
+img {
+    border-style: none;
+}
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+button,
+[type="button"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+div,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    outline: none;
+}
+
+a,
+button {
+    position: relative;
+}
+
+a {
+    color: #484848;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+a:focus,
+a:active {
+    color: #111;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/notoLatin.f2d694a5d0a568ae369e.css */
+
+h2 {
+    color: #111;
+    font-size: 1.125rem;
+    line-height: 1.44444;
+    font-weight: 700;
+}
+
+@media (min-width: 37.5em) {
+    h2 {
+        font-size: 1.375rem;
+        line-height: 1.45455;
+    }
+}
+
+h3 {
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/products/stylesheets/price-package-styles.a7ae55e05e44408d7874.css */
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/stylesheets/vendors.97b0e1d141d3a29f5deb.css */
+
+h4 {
+    color: #111;
+    font-size: .875rem;
+    line-height: 1.57143;
+    font-weight: 700;
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/main.4f16b2f0232fa4b9348b.css */
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+button {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+div,
+h4,
+li,
+ul,
+p,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: block;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    outline: none;
+}
+
+a,
+button {
+    position: relative;
+}
+
+a {
+    color: #484848;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+a:focus,
+a:active {
+    color: #111;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.hnf-svg-icon {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+    fill: currentColor;
+    transition-property: transform, fill;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hnf-accordion {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.hnf-accordion__item {
+    transition: all 200ms cubic-bezier(0.4, 0, 0.4, 1);
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+.hnf-accordion__content {
+    transition: all 200ms cubic-bezier(0.4, 0, 0.4, 1);
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.hnf-btn {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.42857;
+    padding: 0;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    cursor: pointer;
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 52px;
+    vertical-align: top;
+}
+
+.hnf-btn:hover,
+.hnf-btn:active,
+.hnf-btn:focus {
+    text-decoration: none;
+}
+
+.hnf-btn .hnf-svg-icon {
+    flex-shrink: 0;
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+    fill: currentColor;
+    transition-property: transform, fill;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hnf-btn--icon-only {
+    padding: .625rem;
+    border-radius: 40px;
+}
+
+.hnf-btn--icon-only:hover {
+    color: #484848;
+}
+
+.hnf-btn--icon-only:active {
+    color: #111;
+}
+
+.hnf-link {
+    text-decoration: none;
+    font-weight: 400;
+    color: #484848;
+}
+
+.hnf-link:focus,
+.hnf-link:hover {
+    text-decoration: underline;
+    color: #111;
+}
+
+.hnf-link:active {
+    text-decoration: underline;
+    color: #111;
+}
+
+.hnf-link--black {
+    color: #111;
+}
+
+.hnf-link--black:hover,
+.hnf-link--black:focus,
+.hnf-link--black:active {
+    color: #333;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+.hnf-list--plain {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.hnf-list--plain li {
+    padding-left: 0;
+}
+
+.hnf-list--horizontal {
+    margin-bottom: 0;
+}
+
+.hnf-list--horizontal>li {
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
+.hnf-list--horizontal>li:last-child {
+    margin-right: 0;
+}
+
+.hnf-page-container {
+    max-width: 112rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+}
+
+@media (min-width: 37.5em) {
+    .hnf-page-container {
+        padding: 0 1.875rem;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .hnf-page-container {
+        padding: 0 3.125rem;
+    }
+}
+
+@media (min-width: 75em) {
+    .hnf-page-container {
+        padding: 0 2.5rem 0 1.25rem;
+    }
+}
+
+@media (min-width: 75em) {
+    .hnf-page-container__inner {
+        display: -ms-grid;
+        display: grid;
+        grid-column-gap: 1.25rem;
+        -ms-grid-columns: (minmax(0, 1fr))[13];
+        grid-template-columns: repeat(13, minmax(0, 1fr));
+        margin: 0 -.625rem;
+    }
+    .hnf-page-container__main {
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 12;
+        grid-column: 2 / 14;
+        -ms-grid-row: 1;
+        grid-row: 1;
+        margin: 0 .625rem;
+    }
+}
+
+.hnf-btn-change-country {
+    display: inline-block;
+    color: #484848;
+    padding: .625rem 1.25rem .625rem 2.5rem;
+    border-radius: 40px;
+    border: 1px solid #dfdfdf;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.hnf-btn-change-country:hover,
+.hnf-btn-change-country:active,
+.hnf-btn-change-country:focus {
+    color: #484848;
+    text-decoration: none;
+    border-color: #929292;
+}
+
+.hnf-btn-change-country__globe {
+    position: absolute;
+    left: .75rem;
+    top: .4375rem;
+}
+
+.hnf-footer {
+    background-color: #f5f5f5;
+    padding: 3.75rem 0 0 0;
+}
+
+.hnf-footer__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 112rem;
+    margin-top: 1.25rem;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer__container {
+        flex-direction: row;
+    }
+}
+
+.hnf-footer__container a {
+    text-decoration: none;
+}
+
+.hnf-footer__container a:hover {
+    text-decoration: underline;
+}
+
+.hnf-footer__languageSelector {
+    flex: 0 0 auto;
+    margin-bottom: 1.875rem;
+    -ms-flex-align: center;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer__languageSelector {
+        display: flex;
+        margin: 0;
+    }
+}
+
+.hnf-footer__countrySelector {
+    margin: 0 .625rem 0 0;
+    display: inline;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer__countrySelector {
+        margin: auto 0 1.875rem .625rem;
+    }
+}
+
+.hnf-footer__countrySelector .hnf-btn:hover {
+    text-decoration: none;
+}
+
+.hnf-footer__icon-bar {
+    flex-direction: column;
+    flex: 1 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hnf-footer__icon-bar li.hnf-horizontal-list-item {
+    margin-right: .625rem;
+    margin-bottom: .625rem;
+}
+
+@media (min-width: 37.5em) {
+    .hnf-footer__icon-bar {
+        flex-direction: row;
+    }
+}
+
+.hnf-footer__copyright {
+    font-size: .75rem;
+    flex: 0 0 auto;
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer__copyright {
+        margin: 0;
+        border-top: .0625rem solid #dfdfdf;
+    }
+    .hnf-footer__copyright p {
+        margin: 1.875rem 0 1.875rem 0;
+    }
+}
+
+.hnf-footer__linkGroups {
+    flex: 1 0 100%;
+    -ms-flex: none;
+    margin-bottom: 2.5rem;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer__linkGroups {
+        flex-basis: 70%;
+        margin-bottom: 3.75rem;
+    }
+}
+
+.hnf-footer__legalLinks {
+    flex: 1 1 auto;
+    font-size: .75rem;
+    margin-bottom: 1.25rem;
+}
+
+.hnf-footer__legalLinks .hnf-list-item {
+    display: inline-block;
+    margin: 0 1.25rem 0 0;
+    padding: .5rem 0;
+}
+
+@media (min-width: 56.25em) {
+    [dir="ltr"] .hnf-footer__legalLinks {
+        text-align: right;
+    }
+    .hnf-footer__legalLinks {
+        margin: 0;
+        border-top: .0625rem solid #dfdfdf;
+    }
+    .hnf-footer__legalLinks .hnf-list {
+        margin-top: 1.875rem;
+    }
+    .hnf-footer__legalLinks .hnf-list-item {
+        margin: 0 0 0 1.25rem;
+    }
+}
+
+.hnf-footer__socialMediaLinks {
+    flex: 0 0 auto;
+    margin-bottom: 1.875rem;
+    max-width: 100%;
+}
+
+.hnf-footer__socialMediaLinks .hnf-list--horizontal {
+    margin-bottom: -.625rem;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer__socialMediaLinks {
+        margin: 0 1.25rem 1.25rem 0;
+    }
+    .hnf-footer__socialMediaLinks .hnf-list--horizontal {
+        position: relative;
+        top: 50%;
+        transform: perspective(1px) translateY(-50%);
+    }
+}
+
+@media (min-width: 75em) {
+    .hnf-footer {
+        margin-top: 3.75rem;
+    }
+}
+
+.hnf-footer .hnf-accordion {
+    padding-left: 0;
+    line-height: 1.71429;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.hnf-footer .hnf-accordion__item {
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+}
+
+.hnf-footer .hnf-accordion__item h4>.hnf-accordion__"img/bblock.jpg" {
+    display: none;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer .hnf-accordion__item {
+        border: none;
+        flex: 0 0 25%;
+        padding-left: 1.25rem;
+        margin-bottom: 0;
+    }
+    .hnf-footer .hnf-accordion__item h4>.hnf-accordion__title {
+        display: flex;
+        padding: 0 0 .9375rem 0;
+    }
+    .hnf-footer .hnf-accordion__item button {
+        display: none;
+    }
+}
+
+.hnf-footer .hnf-accordion__content-item {
+    margin-bottom: 1.875rem;
+    padding-left: 0;
+}
+
+.hnf-footer .hnf-accordion__content-item:first-child {
+    margin-top: 1.25rem;
+}
+
+.hnf-footer .hnf-accordion__content-item>a {
+    color: #484848;
+}
+
+.hnf-footer .hnf-accordion__content-item>a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer .hnf-accordion__content-item {
+        margin-bottom: .625rem;
+    }
+    .hnf-footer .hnf-accordion__content-item:first-child {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer .hnf-accordion__content {
+        visibility: visible;
+        height: auto;
+        height: initial;
+        overflow: visible;
+        opacity: 100;
+        opacity: initial;
+        line-height: 1.71429;
+        padding-left: 0;
+    }
+}
+
+.hnf-footer .hnf-accordion__heading {
+    display: flex;
+    flex-direction: row;
+    min-height: auto;
+    padding: 1.875rem 0;
+    border: none;
+    background-color: inherit;
+    text-align: left;
+    width: 100%;
+}
+
+.hnf-footer .hnf-accordion__heading svg {
+    transition: transform 0.3s;
+}
+
+.hnf-footer .hnf-accordion__title {
+    flex: 1 0 auto;
+    margin: 0;
+    min-height: auto;
+    color: #111;
+    line-height: 1.875rem;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer .hnf-accordion {
+        border: none;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.hnf-footer .hnf-footer__socialMediaLinks .hnf-btn {
+    border: .0625rem solid #dfdfdf;
+    background-color: inherit;
+    padding: .3125rem;
+    height: auto;
+}
+
+.hnf-footer .hnf-footer__socialMediaLinks .hnf-btn:hover {
+    border-color: #929292;
+}
+
+.hnf-footer .hnf-footer__socialMediaLinks .hnf-svg-icon {
+    color: #484848;
+}
+
+.hnf-footer .hnf-flex-row {
+    width: 100%;
+}
+
+@media (min-width: 56.25em) {
+    .hnf-footer .hnf-flex-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 1 auto;
+    }
+}
+
+.hnf-footer .hnf-flex-row--nowrap {
+    flex-wrap: nowrap;
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/notoLatin.f2d694a5d0a568ae369e.css */
+
+h4 {
+    color: #111;
+    font-size: .875rem;
+    line-height: 1.57143;
+    font-weight: 700;
+}
+
+.h4 {
+    color: #111;
+    font-size: .875rem;
+    line-height: 1.57143;
+    font-weight: 700;
+}
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/products/stylesheets/price-package-styles.a7ae55e05e44408d7874.css */
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+/* menu */
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow-y: scroll;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  display: block;
+  transition: 0.3s;
+}
+
+.closebtn {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/* When you mouse over the navigation links, change their color */
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+
+  top: 0;
+  left: 60%;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.menu-text {
+    margin-left: 15%;
+}
+
+.menu-text a {
+     color: black;
+     max-width: 70%;
+}
+
+.menu-text a:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+
+.boldtext {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.closebtn{
+        width: 0px;
+        height: 0px
+    }
+.closebtns {
+float: left;
+margin-left: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 440px) {
+    .sidenav {
+        padding-top: 25px;
+    }
+    .menu-text {
+        margin-left: 5%;
+    }
+    .sidenav .closebtn {
+        left: 50%;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .sidenav .closebtn {
+        left: 41%;
+    }
+
+}
+
+
+/*NAV 3*/
+
+/* menu */
+/* The side navigation menu */
+.sidenav3 {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+
+  overflow-y: scroll;
+
+}
+
+/* The navigation menu links */
+.sidenav3 a {
+  padding: 8px 8px 8px 32px;
+  display: block;
+ 
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav3 a:hover {
+  color: black;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav3 .closebtn3 {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.closebtn3 {
+    margin-left: 100px;
+}
+
+.boldproduct {
+    font-size: 20px;
+    width: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav3 {padding-top: 15px;}
+  .sidenav3 a {font-size: 18px;}
+}
+
+
+@media screen and (max-width: 440px ){
+    .closebtn {
+        right: 20px;
+    } 
+}
+
+
+/*NAV 4*/
+.sidenav4 {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+/* 0.5 second transition effect to slide in the sidenav */
+  overflow-y: scroll;
+}
+
+/* The navigation menu links */
+.sidenav4 a {
+  padding: 8px 8px 8px 32px;
+  display: block;
+  transition: 0.3s;
+}
+
+/*NAV 5 */
+
+.sidenav5 {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+/* 0.5 second transition effect to slide in the sidenav */
+  overflow-y: scroll;
+}
+
+/* The navigation menu links */
+.sidenav5 a {
+  padding: 8px 8px 8px 32px;
+  display: block;
+  transition: 0.3s;
+}
+
+
+/*NAV 6 */
+
+.sidenav6 {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+/* 0.5 second transition effect to slide in the sidenav */
+  overflow-y: scroll;
+}
+
+/* The navigation menu links */
+.sidenav6 a {
+  padding: 8px 8px 8px 32px;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+/* БЛОК ВРАППЕР СЕКШН * /
+
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/stylesheets/vendors.97b0e1d141d3a29f5deb.css */
+.pub__designSystemBase img{border-style:none;}
+.pub__designSystemBase *,.pub__designSystemBase *::before,.pub__designSystemBase *::after{box-sizing:inherit;outline:none;}
+.pub__btn{position:relative;display:inline-flex;text-decoration:none;justify-content:center;align-items:center;text-align:center;border:0;font-weight:700;font-size:.875rem;line-height:1.5;padding:0;transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);cursor:pointer;box-sizing:border-box;background:transparent;border-radius:64px;vertical-align:top;}
+.pub__btn .pub__btn__copy{display:flex;align-items:center;justify-content:center;opacity:1;-webkit-transform:translateY(0);transform:translateY(0);transition-property:opacity,-webkit-transform;transition-property:opacity,transform;transition-property:opacity,transform,-webkit-transform;transition-duration:250ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);}
+.pub__btn .pub__btn__label{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.pub__btn:hover,.pub__btn:active,.pub__btn:focus{text-decoration:none;}
+.pub__btn__inner--primary{display:inline-flex;width:100%;justify-content:center;align-items:center;transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);height:3.5rem;background:#111;color:#fff;border-radius:64px;padding:0 2rem;}
+.pub__btn__inner--primary:hover{background:#333;color:#fff;border-radius:64px;}
+.pub__btn__inner--primary:focus{color:#fff;}
+.pub__btn__inner--primary:active{background:#000;color:#fff;border-radius:64px;}
+.pub__btn--small{height:2.5rem;padding:0 1.5rem;font-size:.75rem;line-height:1.33333;}
+.pub__btn:disabled>.pub__btn__inner{background:#dfdfdf;color:#929292;cursor:default;}
+.pub__aspect-ratio-image{width:100%;position:relative;height:auto;display:block;padding-bottom:75%;background:#f5f5f5;box-sizing:border-box;}
+.pub__aspect-ratio-image__image{-o-object-fit:cover;object-fit:cover;width:100%;height:100%;position:absolute;left:0;top:0;font-family:"object-fit: cover;";color:transparent;}
+.pub__aspect-ratio-image--portrait-to-wide-from-md{padding-bottom:133.33333%;}
+@media (min-width: 37.5em){
+.pub__aspect-ratio-image--portrait-to-wide-from-md{padding-bottom:56.25%;}
+}
+.pub__link{text-decoration:underline;font-weight:400;color:#484848;}
+.pub__link:focus,.pub__link:hover{color:#111;}
+.pub__link:active{color:#111;}
+.pub__link--black{color:#111;}
+.pub__link--black:hover,.pub__link--black:focus,.pub__link--black:active{color:#333;}
+h2{color:#111;font-size:1.125rem;line-height:1.44444;font-weight:700;}
+@media (min-width: 37.5em){
+h2{font-size:1.375rem;line-height:1.45455;}
+}
+.pub__h2{color:#111;font-size:1.125rem;line-height:1.44444;font-weight:700;}
+@media (min-width: 37.5em){
+.pub__h2{font-size:1.375rem;line-height:1.45455;}
+}
+/*! CSS Used from: https://www.ikea.com/ru/ru/stylesheets/main.ec83359ac00325a5388f.css */
+.b1cw4fo1{display:block;}
+.g1947clq{background-color:#111111;}
+.c66rnvm{flex-direction:column;}
+.f1q5w654{display:flex;}
+.g16gpiby{flex:1 1 auto;}
+.sgwdtfk{justify-content:flex-start;}
+.b1lvk80c{overflow-wrap:break-word;word-wrap:break-word;}
+.v18by0fb{flex-direction:column;}
+.v19w64p3 > *{margin-bottom:2.5rem!important;}
+.vdrm3z7 > *{margin-bottom:2.5rem!important;}
+@media (min-width:37.5em){
+.vdrm3z7 > *{margin-bottom:4rem!important;}
+}
+.v1y1f4kj > *{margin-bottom:0.5rem!important;}
+.vfh8y1x > *{margin-bottom:2rem!important;}
+.g1ci6p1l > *:last-child{margin-bottom:0!important;}
+.s1gshh7t{font-weight:bold;margin:0;word-break:break-word;}
+.g1xk08ng{color:#111111!important;}
+.t91kxqv{font-style:normal;font-weight:normal;word-break:break-word;}
+.b59dqj9{display:flex;flex-direction:column;width:100%;}
+@media (min-width:1270px){
+.l1ubzn73.b59dqj9{flex-direction:row;}
+}
+.b99cqf{width:100%;}
+@media (min-width:1270px){
+.l5l382z.b99cqf{width:66%;}
+}
+.i194i22z{padding:2.5rem;padding-bottom:60px;}
+@media (min-width:56.25em){
+.i194i22z{padding:calc(2.5rem * 2);}
+}
+@media (min-width:1270px){
+.i194i22z{padding:3rem;}
+}
+@media (min-width:1270px){
+.i194i22z{width:33%;}
+}
+@media (min-width:37.5em){
+.i194i22z > *{max-width:80%;}
+}
+@media (min-width:1270px){
+.i194i22z > *{max-width:100%;}
+}
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/main.4f16b2f0232fa4b9348b.css */
+img{border-style:none;}
+div,h2,p,section{margin:0;padding:0;}
+section{display:block;}
+*,*::before,*::after{box-sizing:inherit;outline:none;}
+a{position:relative;}
+a{color:#484848;background-color:transparent;}
+a:hover{color:#111;text-decoration:underline;}
+a:focus,a:active{color:#111;}
+.js-focus-visible :focus:not(.focus-visible){outline:none;}
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/notoLatin.f2d694a5d0a568ae369e.css */
+h2{color:#111;font-size:1.125rem;line-height:1.44444;font-weight:700;}
+@media (min-width: 37.5em){
+h2{font-size:1.375rem;line-height:1.45455;}
+}
+/*! CSS Used from: https://www.ikea.com/ru/ru/products/stylesheets/price-package-styles.a7ae55e05e44408d7874.css */
+.js-focus-visible :focus:not(.focus-visible){outline:none;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* БЛОК ВРАППЕР СЕКШН */
+
+.g1ci6p1l {
+    margin-top: 20px;
+}
+
+/*SCROLL TO UP*/
+                /*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/main.4f16b2f0232fa4b9348b.css */
+button{font-family:inherit;font-size:100%;line-height:1.5;margin:0;}
+button{overflow:visible;}
+button{text-transform:none;}
+button{-webkit-appearance:button;}
+button::-moz-focus-inner{border-style:none;padding:0;}
+button:-moz-focusring{outline:1px dotted ButtonText;}
+div{margin:0;padding:0;}
+*,*::before,*::after{box-sizing:inherit;outline:none;}
+button{position:relative;}
+button{font-family:inherit;font-size:1rem;}
+button{cursor:pointer;}
+.hnf-svg-icon{display:inline-block;height:1.5rem;width:1.5rem;vertical-align:middle;fill:currentColor;transition-property:transform,fill;transition-duration:.3s;transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);}
+.js-focus-visible :focus:not(.focus-visible){outline:none;}
+.hnf-sidebar-actions__inner svg.hnf-svg-icon{display:none;}
+.hnf-sidebar-actions__bar{/*margin-right:-1.25rem;*/display:flex;}
+@media (min-width: 75em){
+.hnf-sidebar-actions__inner svg.hnf-svg-icon{display:inline-block;}
+.hnf-sidebar-actions__bar{position:fixed;top:auto;transform:none;bottom:2.5rem;width:2.5rem;display:flex;flex-direction:column-reverse;flex-wrap:wrap;z-index:100;margin-right:0;}
+.hnf-sidebar-actions__bar>*{margin-top:1.25rem;}
+}
+.expanding-button{transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);position:relative;display:inline-flex;text-decoration:none;justify-content:center;align-items:center;text-align:center;border:0;font-weight:700;font-size:.875rem;line-height:1.42857;padding:0;transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);cursor:pointer;box-sizing:border-box;background:transparent;border-radius:52px;vertical-align:top;position:relative;display:inline-flex;justify-content:center;align-items:center;height:3.5rem;background:rgba(0,0,0,0);border-radius:52px;padding:0 1rem;transition:all .2s;margin:0;opacity:0;pointer-events:none;height:0;width:0;padding:0;border-radius:40px;}
+.expanding-button:hover,.expanding-button:active,.expanding-button:focus{text-decoration:none;}
+.expanding-button .svg-icon{flex-shrink:0;display:inline-block;height:1.5rem;width:1.5rem;vertical-align:middle;fill:currentColor;transition-property:transform,fill;transition-duration:.3s;transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);}
+.expanding-button:hover{background-color:#f5f5f5;}
+.expanding-button:active{background-color:#dfdfdf;}
+.expanding-button:disabled{background:#dfdfdf;color:#929292;cursor:default;}
+.expanding-button__text{white-space:nowrap;max-width:12.5rem;overflow:hidden;transition:all .3s ease-in-out;cursor:pointer;}
+.expanding-button__wrapper{width:100%;display:flex;align-items:center;padding:.9375rem;height:2.5rem;}
+.expanding-button--visible{opacity:1;pointer-events:visible;height:auto;width:auto;width:initial;width:unset;margin:1.5625rem 0;margin-right:1.25rem;padding:0 1.25rem;}
+@media (min-width: 75em){
+.expanding-button{transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);position:relative;display:inline-flex;text-decoration:none;justify-content:center;align-items:center;text-align:center;border:0;font-weight:700;font-size:.875rem;line-height:1.42857;padding:0;transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);cursor:pointer;box-sizing:border-box;background:transparent;border-radius:52px;vertical-align:top;position:relative;display:inline-flex;justify-content:center;align-items:center;height:3.5rem;background:#f5f5f5;border-radius:52px;padding:0 1rem;border-radius:1.75rem;padding:0;height:0;margin:0;}
+.expanding-button:hover,.expanding-button:active,.expanding-button:focus{text-decoration:none;}
+.expanding-button .svg-icon{flex-shrink:0;display:inline-block;height:1.5rem;width:1.5rem;vertical-align:middle;fill:currentColor;transition-property:transform,fill;transition-duration:.3s;transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);}
+.expanding-button:hover{background-color:#dfdfdf;}
+.expanding-button:active{background-color:#ccc;}
+.expanding-button:disabled{background:#dfdfdf;color:#929292;cursor:default;}
+.expanding-button__text{max-width:0;}
+.expanding-button--visible{margin-top:1.25rem;margin-right:auto;width:auto;height:auto;}
+.expanding-button--dark{background-color:#111;color:#fff;}
+.expanding-button--dark:hover,.expanding-button--dark:active,.expanding-button--dark:focus{background-color:#111;color:#fff;}
+.expanding-button__wrapper{padding:.5rem;}
+.expanding-button__wrapper>*{-ms-flex:1 0 auto;}
+.expanding-button:hover .expanding-button__text{max-width:12.5rem;margin:0 .3125rem;cursor:pointer;}
+}
+/*! CSS Used from: https://www.ikea.com/ru/ru/products/stylesheets/price-package-styles.a7ae55e05e44408d7874.css */
+.js-focus-visible :focus:not(.focus-visible){outline:none;}
+
+
+
+/*SLIDER*/
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .horizontal_slider{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .slider_container{
+    display: block;
+    white-space: nowrap;
+  }
+  .item{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  div.item div.img{
+    width: 250px;
+    height: 250px;
+    background: url("../img/logo_partner1.jpg");
+    background-size: cover;
+  }
+
+  
+  div.item div.img h6.text{
+    color:  white;
+    
+    padding-top: 200px;
+    height: 50px;
+  }
+
+  div.item div.img h6.text a.text{
+    margin-left: 65px;
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+  }
+
+
+/*BUTTON SVG BACK*/
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/main.4f16b2f0232fa4b9348b.css */
+button{font-family:inherit;font-size:100%;line-height:1.5;margin:0;}
+button{overflow:visible;}
+button{text-transform:none;}
+button,[type="button"]{-webkit-appearance:button;}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner{border-style:none;padding:0;}
+button:-moz-focusring,[type="button"]:-moz-focusring{outline:1px dotted ButtonText;}
+*,*::before,*::after{box-sizing:inherit;outline:none;}
+button{position:relative;}
+button{font-family:inherit;font-size:1rem;}
+button{cursor:pointer;}
+.hnf-svg-icon{display:inline-block;height:1.5rem;width:1.5rem;vertical-align:middle;fill:currentColor;transition-property:transform,fill;transition-duration:.3s;transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);}
+.hnf-btn{position:relative;display:inline-flex;text-decoration:none;justify-content:center;align-items:center;text-align:center;border:0;font-weight:700;font-size:.875rem;line-height:1.42857;padding:0;transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);cursor:pointer;box-sizing:border-box;background:transparent;border-radius:52px;vertical-align:top;}
+.hnf-btn .hnf-btn__copy{display:flex;align-items:center;justify-content:center;opacity:1;transform:translateY(0);transition-property:opacity,transform;transition-duration:250ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);}
+.hnf-btn:hover,.hnf-btn:active,.hnf-btn:focus{text-decoration:none;}
+.hnf-btn .hnf-svg-icon{flex-shrink:0;display:inline-block;height:1.5rem;width:1.5rem;vertical-align:middle;fill:currentColor;transition-property:transform,fill;transition-duration:.3s;transition-timing-function:cubic-bezier(0.25, 0.1, 0.25, 1);}
+.hnf-btn__inner--icon-tertiary{transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);position:relative;display:inline-flex;justify-content:center;align-items:center;height:3.5rem;background:rgba(0,0,0,0);color:#111;border-radius:52px;padding:0 1rem;color:#111;}
+.hnf-btn__inner--icon-tertiary.hnf-btn--small{padding:0 .5rem;}
+.hnf-btn__inner--icon-tertiary:hover{background-color:#f5f5f5;color:#111;}
+.hnf-btn__inner--icon-tertiary:active{background-color:#dfdfdf;color:#111;}
+.hnf-btn__inner--icon-tertiary:disabled{background:#dfdfdf;color:#929292;cursor:default;}
+.hnf-btn--small{height:2.5rem;padding:0 1.5rem;font-size:.75rem;line-height:1.33333;}
+.hnf-btn:disabled>.hnf-btn__inner{background:#dfdfdf;color:#929292;cursor:default;}
+.js-focus-visible :focus:not(.focus-visible){outline:none;}
+.hnf-btn--icon-tertiary{display:inline-block;height:auto;}
+.hnf-menu__back button{z-index:1;}
+/*! CSS Used from: https://www.ikea.com/ru/ru/products/stylesheets/price-package-styles.a7ae55e05e44408d7874.css */
+.js-focus-visible :focus:not(.focus-visible){outline:none;}
+/*BUTTON SVG BACK*/
+
+
+
+/*
+MAIN BLOCKS*/
+
+/*! CSS Used from: https://www.ikea.com/ru/ru/stylesheets/vendors.a02ac22453287721022b.css */
+.pub__designSystemBase img{border-style:none;}
+.pub__designSystemBase *,.pub__designSystemBase *::before,.pub__designSystemBase *::after{box-sizing:inherit;outline:none;}
+.pub__btn{position:relative;display:inline-flex;text-decoration:none;justify-content:center;align-items:center;text-align:center;border:0;font-weight:700;font-size:.875rem;line-height:1.5;padding:0;transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);cursor:pointer;box-sizing:border-box;background:transparent;border-radius:64px;vertical-align:top;}
+.pub__btn:hover,.pub__btn:active,.pub__btn:focus{text-decoration:none;}
+.pub__btn__inner--secondary{position:relative;display:inline-flex;text-decoration:none;justify-content:center;align-items:center;text-align:center;border:0;font-weight:700;font-size:.875rem;line-height:1.5;padding:0;transition-property:all;transition-duration:100ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);cursor:pointer;box-sizing:border-box;background:transparent;border-radius:64px;vertical-align:top;display:inline-flex;width:100%;justify-content:center;align-items:center;height:3.5rem;background:rgba(0,0,0,0);color:#111;border-radius:64px;padding:0 2rem;border:1px solid #dfdfdf;}
+.pub__btn__inner--secondary:hover,.pub__btn__inner--secondary:active,.pub__btn__inner--secondary:focus{text-decoration:none;}
+.pub__btn__inner--secondary:focus,.pub__btn__inner--secondary:hover{border-color:#929292;}
+.pub__btn__inner--secondary:active{border-color:#111;}
+.pub__btn--small{height:2.5rem;padding:0 1.5rem;font-size:.75rem;line-height:1.33333;}
+.pub__btn:disabled>.pub__btn__inner{background:#dfdfdf;color:#929292;cursor:default;}
+.pub__btn:disabled .pub__btn__inner--secondary{border-color:#dfdfdf;}
+.pub__svg-icon{display:inline-block;height:1.5rem;width:1.5rem;vertical-align:middle;fill:currentColor;transition-property:fill,-webkit-transform;transition-property:transform,fill;transition-property:transform,fill,-webkit-transform;transition-duration:250ms;transition-timing-function:cubic-bezier(0.4, 0, 0.4, 1);}
+.pub__aspect-ratio-image{width:100%;position:relative;height:auto;display:block;padding-bottom:75%;background:#f5f5f5;box-sizing:border-box;}
+.pub__aspect-ratio-image__image{-o-object-fit:cover;object-fit:cover;width:100%;height:100%;position:absolute;left:0;top:0;font-family:"object-fit: cover;";color:transparent;}
+.pub__aspect-ratio-image--portrait{padding-bottom:133.33333%;}
+.pub__link{text-decoration:underline;font-weight:400;color:#484848;}
+.pub__link:focus,.pub__link:hover{color:#111;}
+.pub__link:active{color:#111;}
+.pub__link--black{color:#111;}
+.pub__link--black:hover,.pub__link--black:focus,.pub__link--black:active{color:#333;}
+h1{color:#111;font-size:1.5rem;line-height:1.33333;letter-spacing:-.0075rem;font-weight:700;}
+@media (min-width: 37.5em){
+h1{font-size:2.25rem;line-height:1.33333;letter-spacing:-.04rem;}
+}
+.pub__h2{color:#111;font-size:1.125rem;line-height:1.44444;font-weight:700;}
+@media (min-width: 37.5em){
+.pub__h2{font-size:1.375rem;line-height:1.45455;}
+}
+.pub__chunky-header{display:flex;background:none;overflow:hidden;border:0;cursor:pointer;flex-direction:row;padding:1.25rem 0;width:100%;justify-content:space-between;align-items:center;min-height:5.625rem;color:#484848;text-decoration:none;}
+.pub__chunky-header:active,.pub__chunky-header:hover{color:#111;}
+.pub__chunky-header:active .pub__chunky-header__title,.pub__chunky-header:hover .pub__chunky-header__title{text-decoration:underline;}
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){
+.pub__chunky-header::after{content:"";min-height:calc(5.625rem - 2.5rem);}
+}
+.pub__chunky-header__icon{flex-shrink:0;}
+.pub__chunky-header--small{padding:.25rem 0;min-height:3.75rem;}
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){
+.pub__chunky-header--small::after{content:"";min-height:calc(3.75rem - .5rem);}
+}
+.pub__chunky-header__title-wrapper{text-align:left;flex-grow:1;}
+.pub__chunky-header__title-wrapper .pub__chunky-header__title{width:auto;}
+.pub__chunky-header__title{color:#111;font-size:.875rem;line-height:1.57143;font-weight:700;display:block;}
+.pub__chunky-header:disabled{cursor:default;}
+.pub__chunky-header:disabled .pub__chunky-header__title{text-decoration:none;}
+.pub__chunky-header:disabled .pub__chunky-header__title{color:#dfdfdf;}
+.pub__chunky-header:disabled .pub__chunky-header__icon{color:#dfdfdf;}
+.pub__teaser__top-button{display:none;}
+.pub__teaser__bottom-button{border-bottom:1px solid #dfdfdf;margin-top:.75rem;}
+.pub__teaser__info-container{width:100%;display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;}
+.pub__teaser__description{margin:0;}
+@media (min-width: 37.5em){
+.pub__teaser{margin-bottom:4rem;}
+}
+@media (min-width: 56.25em){
+.pub__teaser__info{margin-right:1.25rem;flex-basis:calc((100% / 12) * 6);}
+.pub__teaser__top-button{-ms-grid-column-align:end;justify-self:end;align-self:flex-end;}
+.pub__teaser__bottom-button{display:none;}
+.pub__teaser__top-button{display:inline-flex;flex-grow:0;}
+}
+@media (min-width: 75em){
+.pub__teaser__info{flex-basis:calc((100% / 12) * 5);}
+}
+.pub__curated-gallery{width:100%;}
+.pub__curated-gallery__item{margin:0 .375rem .75rem;}
+@media (min-width: 37.5em){
+.pub__curated-gallery__item{margin:0 .5rem 1rem;}
+}
+@media (min-width: 56.25em){
+.pub__curated-gallery__item{margin:0 .625rem 1.25rem;}
+}
+.pub__curated-gallery__item .pub__aspect-ratio-image{height:100%;}
+.pub__is-two .pub__curated-gallery__content{display:-ms-grid;display:grid;-ms-grid-columns:(minmax(0, 1fr))[4];grid-template-columns:repeat(4, minmax(0, 1fr));grid-column-gap:.75rem;margin-left:-.375rem;margin-right:-.375rem;grid-row-gap:.75rem;margin-bottom:-.375rem;}
+@media (min-width: 37.5em){
+.pub__is-two .pub__curated-gallery__content{-ms-grid-columns:(minmax(0, 1fr))[6];grid-template-columns:repeat(6, minmax(0, 1fr));grid-column-gap:1rem;margin-left:-.5rem;margin-right:-.5rem;grid-row-gap:1rem;margin-bottom:-.5rem;}
+}
+@media (min-width: 56.25em){
+.pub__is-two .pub__curated-gallery__content{-ms-grid-columns:(minmax(0, 1fr))[12];grid-template-columns:repeat(12, minmax(0, 1fr));grid-column-gap:1.25rem;margin-left:-.625rem;margin-right:-.625rem;grid-row-gap:1.25rem;margin-bottom:-.625rem;}
+}
+.pub__is-two .pub__curated-gallery__item{-ms-grid-row:1;grid-row:1;-ms-grid-column:1;-ms-grid-column-span:4;grid-column:1 / span 4;}
+.pub__is-two .pub__curated-gallery__item:last-child{-ms-grid-row:2;grid-row:2;}
+@media (min-width: 37.5em){
+.pub__is-two .pub__curated-gallery__item{-ms-grid-column:1;-ms-grid-column-span:6;grid-column:1 / span 6;}
+}
+@media (min-width: 56.25em){
+.pub__is-two .pub__curated-gallery__item{-ms-grid-row:1;grid-row:1;-ms-grid-column:1;-ms-grid-column-span:6;grid-column:1 / span 6;}
+.pub__is-two .pub__curated-gallery__item:last-child{-ms-grid-row:1;grid-row:1;-ms-grid-column:7;-ms-grid-column-span:6;grid-column:7 / span 6;}
+}
+/*! CSS Used from: https://www.ikea.com/ru/ru/stylesheets/main.1436ffa636507017bbc4.css */
+.b1cw4fo1{display:block;}
+.v18by0fb{flex-direction:column;}
+.v19w64p3 > *{margin-bottom:2.5rem!important;}
+.vdrm3z7 > *{margin-bottom:2.5rem!important;}
+@media (min-width:37.5em){
+.vdrm3z7 > *{margin-bottom:4rem!important;}
+}
+.g1ci6p1l > *:last-child{margin-bottom:0!important;}
+.s1gshh7t{font-weight:bold;margin:0;word-break:break-word;}
+.hp5wssc{margin-bottom:0.5rem!important;}
+@media (max-width:56.25em){
+.th1zux0{overflow:hidden;}
+}
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/main.4f16b2f0232fa4b9348b.css */
+img{border-style:none;}
+div,h1,p,section{margin:0;padding:0;}
+section{display:block;}
+*,*::before,*::after{box-sizing:inherit;outline:none;}
+a{position:relative;}
+a{color:#484848;background-color:transparent;}
+a:hover{color:#111;text-decoration:underline;}
+a:focus,a:active{color:#111;}
+.js-focus-visible :focus:not(.focus-visible){outline:none;}
+/*! CSS Used from: https://www.ikea.com/ru/ru/header-footer/styles/notoLatin.f2d694a5d0a568ae369e.css */
+h1{color:#111;font-size:1.5rem;line-height:1.33333;letter-spacing:-.0075rem;font-weight:700;}
+@media (min-width: 37.5em){
+h1{font-size:2.25rem;line-height:1.33333;letter-spacing:-.04rem;}
+}
+/*! CSS Used from: https://www.ikea.com/ru/ru/products/stylesheets/price-package-styles.fc3a086568c7efdaa730.css */
+.js-focus-visible :focus:not(.focus-visible){outline:none;}
+ 
+
+
+
+
+
+
+
+
+
+
+/*! CSS Used from: https://preview.colorlib.com/theme/sona/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+h3{margin-top:0;margin-bottom:.5rem;}
+h3{margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h3{font-size:1.75rem;}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-6,.col-sm-6{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+@media (min-width:576px){
+.col-sm-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media (min-width:992px){
+.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+h3{orphans:3;widows:3;}
+h3{page-break-after:avoid;}
+}
+/*! CSS Used from: https://preview.colorlib.com/theme/sona/css/style.css */
+h3{margin:0;color:#111;font-weight:400;font-family:lora,serif;}
+h3{font-size:30px;}
+.set-bg{background-repeat:no-repeat;background-size:cover;background-position:top center;}
+.gallery-item{position:relative;height:279px;margin-bottom:20px;border-radius:5px;position:relative;z-index:1;}
+.gallery-item:hover:after{opacity:1;}
+.gallery-item:hover .gi-text{opacity:1;}
+.gallery-item:after{position:absolute;left:0;top:0;width:100%;height:100%;background:rgba(25,25,26,.3);content:"";z-index:-1;border-radius:5px;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;opacity:0;}
+.gallery-item.large-item{height:576px;}
+.gallery-item .gi-text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:100%;height:100%;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;opacity:0;}
+.gallery-item .gi-text h3{color:#fff;}
+
+
+
+
+.reverse1 {
+    order: 2;
+}
+
+.reverse2 {
+    order: 1;
+}
+
+.pub__btn__inner--icon-primary-inverse:hover {
+    background-color: #eaeaea;
+}
+

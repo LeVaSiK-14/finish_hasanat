@@ -1,0 +1,103 @@
+.content {
+	width: 50%;
+}
+.text-content {
+	margin-top: 45px;
+}
+.one {
+	font-weight: bold;
+	color: gray;
+}
+
+.one h2 strong{
+	font-size: 35px;
+}
+.btn {
+	border-radius: 50px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
+
+}
+.btn:hover {
+	color: white;
+}
+
+.two h2 strong {
+	font-size: 20px;
+}
+
+.two-block{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+div.img{
+	width: 49%;
+}
+div.img img{
+	width: 100%;
+}
+.img-section{
+	margin-top: 20px; 
+}
+.all-content{
+	width: 70%;
+}
+.main{
+	display: flex;
+}
+.menu{
+	right: 0;
+	top: 100px;
+	max-height: 100vh;
+	width: 30%;
+	max-height: 89%;
+	padding: 10px;
+	z-index: 99;
+	background-color: white;
+	overflow-x: scroll;
+	padding-bottom: 30px;
+}
+
+
+.menu a{
+	color: black;
+		text-decoration: none;
+}
+
+.menu a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.card-header h5 {
+
+	font-size: 15px;
+}
+
+@media screen and (max-width: 990px){
+	.main{
+		display: block;
+	}
+	.all-content{
+		width: 100%;
+	}
+	.menu{
+		width: 100%;
+	}
+	.content{
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 565px){
+	.two-block{
+		display: block;
+	}
+	div.img{
+		width: 100%;
+		margin-top: 40px;
+	}
+}
