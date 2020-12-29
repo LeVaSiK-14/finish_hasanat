@@ -1,0 +1,36 @@
+{% extends 'main/base.html' %} 
+{% load static %}
+{% block content %} 
+    <head>
+<link rel="stylesheet" type="text/css" href="{% static 'css/8_page.css' %}">
+    </head>
+    
+      
+
+<div class="wrapper">
+
+    <div class="all-content" style="margin-bottom: 50px;">
+        <div class="title">
+            <h2 class="title">{{tags.tag_name}}</h2>
+        </div>
+        <div class="content">
+            <img src="{{tags.img.url}}" alt="" class="img">
+            <p class="text">{{tags.sub_title_tags}}</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        {%for sub_tag in sub_tags%}
+            <div class="cardd col-md-3 col-sm-4 col-12">
+                <img src="{{ sub_tag.img.url }}" alt="" class="img">
+                <h5 class="title-s">{{sub_tag.sub_tags_name}}</h5>
+                <p class="text-subtitle">{{sub_tag.sub_title|truncatechars:"100"}}</p>
+                <a href="{% url 'tag' sub_tag.id %}" class="hr">
+                    <p class="hr">Узнать подробнее</p>
+                </a>
+            </div>
+        {%endfor%}
+    </div>
+</div>
+{%endblock%}

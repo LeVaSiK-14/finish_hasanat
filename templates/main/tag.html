@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %} 
+{% load static %}
+{% block content %} 
+    <head>
+        
+<link rel="stylesheet" type="text/css" href="{% static 'css/8_page.css' %}">
+    </head>
+    
+      
+
+<div class="wrapper">
+<div class="row">
+{%for product in products%}
+    <div class="cardd col-md-3 col-sm-4 col-12">
+        <img src="{{ product.img.url }}" alt="" class="img">
+        <h5 class="title-s">{{product.title}}</h5>
+        <p class="text-subtitle">{{product.sub_title|truncatechars:"100"}}</p>
+        <a href="{% url 'product_detail' product.id%}" class="hr">
+            <p class="hr">Узнать подробнее</p>
+        </a>
+    </div>
+    {%endfor%}
+  </div>
+</div>
+{%endblock%}

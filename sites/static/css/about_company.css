@@ -1,0 +1,76 @@
+.div-info {
+	width: 700px;
+}
+h1, div.grid-itm h2, h3, h4, h5, h6{
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: #111;
+}
+.grid1 {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+
+	grid-gap: 1.5em
+}
+.grid2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1.5em
+}
+
+.text {
+	color: #484848
+}
+.grid-button{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.grid-button > a{
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 10px 30px 10px 30px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+
+}
+.grid-button > a:hover {
+	background-color: #333
+	text-decoration: none;
+}
+
+.title-text {
+	width: 600px;
+	margin-bottom: 30px;
+}
+
+.title-text2 {
+	margin-top: 30px;
+	width: 600px;
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 1100px) {
+	.grid2 {
+		grid-template-columns: 2fr 2fr;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.grid1{
+	grid-template-columns: 2fr;
+	}
+	.title-text {
+		width: 100%;
+	}
+	.title-text2 {
+		width: 100%;
+	}
+
+	.grid2 {
+		grid-template-columns: 2fr;
+	}
+
+}

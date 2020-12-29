@@ -34,40 +34,41 @@
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-</div>
+<div class="title"><h3 class="title">Новости</h3>  </div>
 
-<div class="wrappersssss">
+
+<div class="wrappersss">
 
 <!-- BLOCK -->
+{% for new in all_news %}
 <div class="pub__carousel-slide ifp6bjs">
   <div data-pub-child-placeholder="" class="">
-    <div class="range-revamp-product-compact" data-ref-id="50458001" data-product-number="50458001" data-product-type="ART" data-price="149" data-currency="RUB" data-product-name="BERGENES БЕРГЕНЕС" data-product-compact="" data-cs-capture="">
+    <div class="range-revamp-product-compact">
 
-  <a href="TEST" aria-label="BERGENES БЕРГЕНЕС - Подставка для смартфона/планшета">
+  <a href="{% url 'new_news_detail' new.id %}" aria-label="{{new.title}}">
 
     <div class="range-revamp-product-compact__image-wrapper">
       <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square">
-        <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="BERGENES БЕРГЕНЕС Подставка для смартфона/планшета, бамбук" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="h.jpg"  data-src="false" data-src-set="false"></div><!-- HERE -->
+        <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="{{new.title}}" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="{{new.img.url}}"  data-src="false" data-src-set="false"></div>
 
         <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square range-revamp-product-compact__image-hover range-revamp-product-compact__image-hover--active">
-          <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="https://rostproject.com/files/kns2.jpg"><!-- HERE -->
+          <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="{{new.img_2.url}}">
         </div>
       </div>
     </a>
 
 
     <div class="range-revamp-product-compact__bottom-wrapper">
-      <a href="#">
+      <a href="{% url 'new_news_detail' new.id %}">
         <div class="range-revamp-compact-price-package">
           <div class="range-revamp-compact-price-package__additional-info">
             <div class="range-revamp-header-section">
-              <div class="range-revamp-header-section__title--small">BERGENES БЕРГЕНЕС</div>
+              <div class="range-revamp-header-section__title--small">{{new.title}}</div>
               <div class="range-revamp-header-section__description">
-                <span class="range-revamp-header-section__description-text">Подставка для смартфона/планшетаLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum doloribus, corrupti nisi distinctio in. Blanditiis totam, debitis atque aliquam.</span>
+                <span class="range-revamp-header-section__description-text">{{new.sub_title}}</span>
               </div>
             </div>
           </div>
@@ -80,37 +81,47 @@
   </div>
 </div>
 </div>
-
+{% endfor %}
 
 <!-- BLOCK -->
 
   
+
+</div>
+<br>
+
+    <div class="title"><h3 class="title">Проекты</h3>  </div>
+
+
+<div class="wrappersss">
+
 <!-- BLOCK -->
+{% for project in all_projects %}
 <div class="pub__carousel-slide ifp6bjs">
   <div data-pub-child-placeholder="" class="">
-    <div class="range-revamp-product-compact" data-ref-id="50458001" data-product-number="50458001" data-product-type="ART" data-price="149" data-currency="RUB" data-product-name="BERGENES БЕРГЕНЕС" data-product-compact="" data-cs-capture="">
+    <div class="range-revamp-product-compact">
 
-  <a href="TEST" aria-label="BERGENES БЕРГЕНЕС - Подставка для смартфона/планшета">
+  <a href="{% url 'project_detail' project.id %}" aria-label="{{project.title}}">
 
     <div class="range-revamp-product-compact__image-wrapper">
       <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square">
-        <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="BERGENES БЕРГЕНЕС Подставка для смартфона/планшета, бамбук" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="h.jpg"  data-src="false" data-src-set="false"></div><!-- HERE -->
+        <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="{{project.title}}" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="{{project.img.url}}"  data-src="false" data-src-set="false"></div>
 
         <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square range-revamp-product-compact__image-hover range-revamp-product-compact__image-hover--active">
-          <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="https://rostproject.com/files/kns2.jpg"><!-- HERE -->
+          <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="{{project.img_2.url}}">
         </div>
       </div>
     </a>
 
 
     <div class="range-revamp-product-compact__bottom-wrapper">
-      <a href="#">
+      <a href="{% url 'project_detail' project.id %}">
         <div class="range-revamp-compact-price-package">
           <div class="range-revamp-compact-price-package__additional-info">
             <div class="range-revamp-header-section">
-              <div class="range-revamp-header-section__title--small">BERGENES БЕРГЕНЕС</div>
+              <div class="range-revamp-header-section__title--small">{{project.title}}</div>
               <div class="range-revamp-header-section__description">
-                <span class="range-revamp-header-section__description-text">Подставка для смартфона/планшетаLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum doloribus, corrupti nisi distinctio in. Blanditiis totam, debitis atque aliquam.</span>
+                <span class="range-revamp-header-section__description-text">{{project.sub_title}}</span>
               </div>
             </div>
           </div>
@@ -123,183 +134,12 @@
   </div>
 </div>
 </div>
-
-
-<!-- BLOCK -->
-
-
-  
-<!-- BLOCK -->
-<div class="pub__carousel-slide ifp6bjs">
-  <div data-pub-child-placeholder="" class="">
-    <div class="range-revamp-product-compact" data-ref-id="50458001" data-product-number="50458001" data-product-type="ART" data-price="149" data-currency="RUB" data-product-name="BERGENES БЕРГЕНЕС" data-product-compact="" data-cs-capture="">
-
-  <a href="TEST" aria-label="BERGENES БЕРГЕНЕС - Подставка для смартфона/планшета">
-
-    <div class="range-revamp-product-compact__image-wrapper">
-      <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square">
-        <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="BERGENES БЕРГЕНЕС Подставка для смартфона/планшета, бамбук" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="h.jpg"  data-src="false" data-src-set="false"></div><!-- HERE -->
-
-        <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square range-revamp-product-compact__image-hover range-revamp-product-compact__image-hover--active">
-          <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="https://rostproject.com/files/kns2.jpg"><!-- HERE -->
-        </div>
-      </div>
-    </a>
-
-
-    <div class="range-revamp-product-compact__bottom-wrapper">
-      <a href="#">
-        <div class="range-revamp-compact-price-package">
-          <div class="range-revamp-compact-price-package__additional-info">
-            <div class="range-revamp-header-section">
-              <div class="range-revamp-header-section__title--small">BERGENES БЕРГЕНЕС</div>
-              <div class="range-revamp-header-section__description">
-                <span class="range-revamp-header-section__description-text">Подставка для смартфона/планшетаLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum doloribus, corrupti nisi distinctio in. Blanditiis totam, debitis atque aliquam.</span>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </a>
-
-    </div>
-  </div>
-</div>
-</div>
-
-
-<!-- BLOCK -->
-
-
-  
-<!-- BLOCK -->
-<div class="pub__carousel-slide ifp6bjs">
-  <div data-pub-child-placeholder="" class="">
-    <div class="range-revamp-product-compact" data-ref-id="50458001" data-product-number="50458001" data-product-type="ART" data-price="149" data-currency="RUB" data-product-name="BERGENES БЕРГЕНЕС" data-product-compact="" data-cs-capture="">
-
-  <a href="TEST" aria-label="BERGENES БЕРГЕНЕС - Подставка для смартфона/планшета">
-
-    <div class="range-revamp-product-compact__image-wrapper">
-      <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square">
-        <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="BERGENES БЕРГЕНЕС Подставка для смартфона/планшета, бамбук" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="h.jpg"  data-src="false" data-src-set="false"></div><!-- HERE -->
-
-        <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square range-revamp-product-compact__image-hover range-revamp-product-compact__image-hover--active">
-          <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="https://rostproject.com/files/kns2.jpg"><!-- HERE -->
-        </div>
-      </div>
-    </a>
-
-
-    <div class="range-revamp-product-compact__bottom-wrapper">
-      <a href="#">
-        <div class="range-revamp-compact-price-package">
-          <div class="range-revamp-compact-price-package__additional-info">
-            <div class="range-revamp-header-section">
-              <div class="range-revamp-header-section__title--small">BERGENES БЕРГЕНЕС</div>
-              <div class="range-revamp-header-section__description">
-                <span class="range-revamp-header-section__description-text">Подставка для смартфона/планшетаLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum doloribus, corrupti nisi distinctio in. Blanditiis totam, debitis atque aliquam.</span>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </a>
-
-    </div>
-  </div>
-</div>
-</div>
-
+{% endfor %}
 
 <!-- BLOCK -->
 
   
-<!-- BLOCK -->
-<div class="pub__carousel-slide ifp6bjs">
-  <div data-pub-child-placeholder="" class="">
-    <div class="range-revamp-product-compact" data-ref-id="50458001" data-product-number="50458001" data-product-type="ART" data-price="149" data-currency="RUB" data-product-name="BERGENES БЕРГЕНЕС" data-product-compact="" data-cs-capture="">
 
-  <a href="TEST" aria-label="BERGENES БЕРГЕНЕС - Подставка для смартфона/планшета">
-
-    <div class="range-revamp-product-compact__image-wrapper">
-      <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square">
-        <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="BERGENES БЕРГЕНЕС Подставка для смартфона/планшета, бамбук" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="h.jpg"  data-src="false" data-src-set="false"></div><!-- HERE -->
-
-        <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square range-revamp-product-compact__image-hover range-revamp-product-compact__image-hover--active">
-          <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="https://rostproject.com/files/kns2.jpg"><!-- HERE -->
-        </div>
-      </div>
-    </a>
-
-
-    <div class="range-revamp-product-compact__bottom-wrapper">
-      <a href="#">
-        <div class="range-revamp-compact-price-package">
-          <div class="range-revamp-compact-price-package__additional-info">
-            <div class="range-revamp-header-section">
-              <div class="range-revamp-header-section__title--small">BERGENES БЕРГЕНЕС</div>
-              <div class="range-revamp-header-section__description">
-                <span class="range-revamp-header-section__description-text">Подставка для смартфона/планшетаLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum doloribus, corrupti nisi distinctio in. Blanditiis totam, debitis atque aliquam.</span>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </a>
-
-    </div>
-  </div>
-</div>
-</div>
-
-
-<!-- BLOCK -->
-
-  
-<!-- BLOCK -->
-<div class="pub__carousel-slide ifp6bjs">
-  <div data-pub-child-placeholder="" class="">
-    <div class="range-revamp-product-compact" data-ref-id="50458001" data-product-number="50458001" data-product-type="ART" data-price="149" data-currency="RUB" data-product-name="BERGENES БЕРГЕНЕС" data-product-compact="" data-cs-capture="">
-
-  <a href="TEST" aria-label="BERGENES БЕРГЕНЕС - Подставка для смартфона/планшета">
-
-    <div class="range-revamp-product-compact__image-wrapper">
-      <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square">
-        <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="BERGENES БЕРГЕНЕС Подставка для смартфона/планшета, бамбук" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="h.jpg"  data-src="false" data-src-set="false"></div><!-- HERE -->
-
-        <div class="range-revamp-aspect-ratio-image range-revamp-aspect-ratio-image--square range-revamp-product-compact__image-hover range-revamp-product-compact__image-hover--active">
-          <img loading="lazy" class="range-revamp-aspect-ratio-image__image" alt="" sizes="(max-width: 400px) 80px, (max-width: 1450px) 160px, 300px" src="https://rostproject.com/files/kns2.jpg"><!-- HERE -->
-        </div>
-      </div>
-    </a>
-
-
-    <div class="range-revamp-product-compact__bottom-wrapper">
-      <a href="#">
-        <div class="range-revamp-compact-price-package">
-          <div class="range-revamp-compact-price-package__additional-info">
-            <div class="range-revamp-header-section">
-              <div class="range-revamp-header-section__title--small">BERGENES БЕРГЕНЕС</div>
-              <div class="range-revamp-header-section__description">
-                <span class="range-revamp-header-section__description-text">Подставка для смартфона/планшетаLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum doloribus, corrupti nisi distinctio in. Blanditiis totam, debitis atque aliquam.</span>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </a>
-
-    </div>
-  </div>
-</div>
-</div>
-
-
-<!-- BLOCK -->
 </div>
 
 
@@ -312,7 +152,7 @@
 .pub__designSystemBase button::-moz-focus-inner,.pub__designSystemBase [type="button"]::-moz-focus-inner{border-style:none;padding:0;}
 .pub__designSystemBase button:-moz-focusring,.pub__designSystemBase [type="button"]:-moz-focusring{outline:1px dotted ButtonText;}
 .pub__designSystemBase *,.pub__designSystemBase *::before,.pub__designSystemBase *::after{box-sizing:inherit;outline:none;}
-.pub__carousel-slide{max-width:100%;position:relative;flex-shrink:0;margin-left:.625rem;margin-right:.625rem;}
+.pub__carousel-slide{max-width:100%;position:relative;flex-shrink:0;margin-left:0;margin-right:1.25rem; margin-bottom: 20px;}
 .ifp6bjs{flex-basis:calc(75% - 1.25rem);flex-shrink:0;}
 @media (min-width:37.5em){
 .ifp6bjs{flex-basis:calc(33.33% - 1.25rem);}
@@ -320,23 +160,6 @@
 @media (min-width:75em){
 .ifp6bjs{flex-basis:calc(25% - 1.25rem);}
 }
-.ifp6bjs:empty{display:none;}
-img{border-style:none;}
-button{font-family:inherit;font-size:100%;line-height:1.5;margin:0;}
-button{overflow:visible;}
-button{text-transform:none;}
-button,[type="button"]{-webkit-appearance:button;}
-button::-moz-focus-inner,[type="button"]::-moz-focus-inner{border-style:none;padding:0;}
-button:-moz-focusring,[type="button"]:-moz-focusring{outline:1px dotted ButtonText;}
-div{margin:0;padding:0;}
-*,*::before,*::after{box-sizing:inherit;outline:none;}
-a,button{position:relative;}
-a{color:#484848;background-color:transparent;}
-a:hover{color:#111;text-decoration:underline;}
-a:focus,a:active{color:#111;}
-button{font-family:inherit;font-size:1rem;}
-button{cursor:pointer;}
-.js-focus-visible :focus:not(.focus-visible){outline:none;}
 
 
 .range-revamp-svg-icon{display:inline-block;height:1.5rem;width:1.5rem;vertical-align:middle;fill:currentColor;-webkit-transition-property:fill,-webkit-transform;transition-property:fill,-webkit-transform;-o-transition-property:transform,fill;transition-property:transform,fill;transition-property:transform,fill,-webkit-transform;-webkit-transition-duration:.3s;-o-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease;}
@@ -363,14 +186,15 @@ button{cursor:pointer;}
 .range-revamp-btn__inner--icon-emphasised:hover{background-color:#004f93;color:#fff;}
 .range-revamp-btn__inner--icon-emphasised:active{background-color:#003e72;color:#fff;}
 .range-revamp-btn__inner--icon-emphasised:disabled{background:#dfdfdf;color:#929292;cursor:default;}
-.range-revamp-btn--small{height:2.5rem;padding:0 1.5rem;font-size:.75rem;line-height:1.33333;}
+.range-revamp-btn--small{height:2.5rem;padding:0 1.5rem;font-size:18px;line-height:1.33333;}
 .range-revamp-btn:disabled>.range-revamp-btn__inner{background:#dfdfdf;color:#929292;cursor:default;}
-.range-revamp-header-section__title--small{font-weight:700;text-transform:uppercase;color:#000;line-height:1.5;margin-bottom:.3125rem;}
-.range-revamp-header-section__title--small{font-size:.75rem;}
-.range-revamp-header-section__description{letter-spacing:0;font-weight:400;font-size:.75rem;line-height:1.5;color:#484848;}
+.range-revamp-header-section__title--small{font-weight:bold;color:#111;line-height:1.5;margin-bottom:.3125rem;}
+.range-revamp-header-section__title--small{font-size:18px;}
+.range-revamp-header-section__description{letter-spacing:0;font-weight:400;font-size:16px;color:#363435;}
 .range-revamp-header-section__description-text:after{content:" ";}
 @media (min-width:37.5em){
-.range-revamp-header-section__description,.range-revamp-header-section__title--small{font-size:.875rem;line-height:1.42857;}
+.range-revamp-header-section__title--small{font-size:18px;}
+.range-revamp-header-section__description{font-size: 16px;}
 }
 .range-revamp-price{display:inline-block;font-weight:700;color:#000;font-size:1rem;white-space:pre;}
 .range-revamp-price__integer{line-height:1.1875;font-size:1.375rem;vertical-align:inherit;}
@@ -393,7 +217,7 @@ button{cursor:pointer;}
 .range-revamp-aspect-ratio-image{width:100%;position:relative;height:auto;display:block;padding-bottom:75%;background:#f5f5f5;-webkit-box-sizing:border-box;box-sizing:border-box;}
 .range-revamp-aspect-ratio-image__image{-o-object-fit:cover;object-fit:cover;width:100%;height:100%;position:absolute;left:0;top:0;font-family:"object-fit: cover;";color:transparent;}
 .range-revamp-aspect-ratio-image--square{padding-bottom:100%;}
-.range-revamp-product-compact{max-width:25rem;position:relative;padding-top:2.5rem;}
+.range-revamp-product-compact{max-width:25rem;position:relative;}
 .range-revamp-product-compact__image-wrapper{position:relative;}
 .range-revamp-product-compact:hover .range-revamp-header-section__title--small{text-decoration:underline;}
 .range-revamp-product-compact a{color:#000;text-decoration:none;display:block;}
@@ -415,25 +239,23 @@ body[data-list-available=true] .range-revamp-product-compact:hover .range-revamp
 body[data-shopping-available=true] .range-revamp-product-compact__add-to-cart-button{opacity:1;top:100%;right:0;height:2.5rem;}
 }
 
-.wrappersssss {
+.wrappersss {
   overflow-x: scroll;
   display: flex;
-  margin-left: 140px;
-  margin-right: 40px;
-}
-@media screen and (max-width: 1000px){
-    .wrappersssss{
-        width: 95%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-    }
-}
-@media screen and (max-width: 920px){
-    .wrappersssss{
-        margin-top: 700px;
-    }
+  scrollbar-color: #458245 #714826;
 }
 </style>
+
+
+        
+    </div>
+
+
+
+
+
+
+
 
 
 
