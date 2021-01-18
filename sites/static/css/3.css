@@ -5,9 +5,22 @@ div.three{
 }
 div.cardd{
 	width: 32%;
+
 }
-div.cardd img.img{
+div.ci{
 	width: 100%;
+	display: block;
+    overflow: hidden;
+}
+div.ci img.img{
+	width: 100%;
+	transition: 1s;
+    display: block;
+}
+div.ci img.img:hover{
+	transform: scale(1.2);
+
+}
 }
 p.text-subtitle{
 	padding: 0 24px 24px 24px;

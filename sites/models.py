@@ -1,5 +1,5 @@
 from django.db import models
-
+from datetime import date
 class News(models.Model):
 	title = models.CharField(max_length=128, default='')
 	sub_title = models.CharField(max_length=2048, default='')
@@ -88,3 +88,9 @@ class Images_Projects(models.Model):
 
 	def __str__(self):
 		return self.project.title
+
+class Сonsultation(models.Model):
+	number_phone = models.CharField(max_length = 255)
+
+	def __str__(self):
+		return self.number_phone

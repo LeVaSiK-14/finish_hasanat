@@ -9,7 +9,18 @@
       
 
 <div class="wrapper">
+    <div class="all-content" style="margin-bottom: 50px;">
+        <div class="title">
+            <h2 class="title">{{subtag.sub_tags_name}}</h2>
+        </div>
+        <div class="content">
+            <img src="{{subtag.img.url}}" alt="" class="img">
+            <p class="text">{{subtag.sub_title}}</p>
+        </div>
+    </div>
 <div class="row">
+
+
 {%for product in products%}
     <div class="cardd col-md-3 col-sm-4 col-12">
         <img src="{{ product.img.url }}" alt="" class="img">

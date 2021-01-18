@@ -5,6 +5,7 @@
 	flex-direction: row;
 	background-color: #eaeaea;
 	margin-bottom: 50px;
+	overflow: hidden;
 }
 div.image{
 	width: 50%;

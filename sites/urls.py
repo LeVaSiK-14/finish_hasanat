@@ -21,7 +21,7 @@ urlpatterns = [
 	path('coming_soon/', views.coming_soon, name='coming_soon'),
 
 
-	path('tag/<int:id>/', views.tag, name='tag'),
+	path('tag/<int:tag_id>/', views.tag, name='tag'),
 	# path('sub_tags/<int:id>/', views.sub_tags, name='sub_tags'),
 	
 

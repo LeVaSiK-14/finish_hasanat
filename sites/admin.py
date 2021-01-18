@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import *
 
-admin.site.register(Calculate)
+# admin.site.register(Calculate)
 admin.site.register(SubTags)
 
 
@@ -40,14 +40,10 @@ class ProductsImageAdmin(admin.ModelAdmin):
 
 
 
-
-
-
-
-
-
-
-
+class СonsultationAdmin(admin.ModelAdmin):
+    list_display = ('number_phone',)
+    list_display_links =('number_phone',)
+admin.site.register(Сonsultation, СonsultationAdmin)
 
 
 

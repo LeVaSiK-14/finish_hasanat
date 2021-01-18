@@ -8,11 +8,11 @@ p.text-subtitle1{
 }
 a.text-subtitle1{
 	color:  black;
-	text-decoration: underline;
+	text-decoration: none;
 }
 a.text-subtitle1:hover{
 	color: #333;
-	text-decoration: underline;
+	text-decoration: none;
 }
 p.text-subtitle2{
 	margin-top: 30px;
@@ -27,10 +27,12 @@ a.see-more{
 	padding: 14px 30px 14px 30px;
 	font-weight: bold;
 	font-size: 13px;
+	text-decoration: none;
 }
 a.see-more:hover{
 	background-color: #333;
 	color:  white;
+	text-decoration: none;
 }
 p.text-subtitles{
 	margin-bottom: 50px;

@@ -14,10 +14,13 @@ def view_404_error(request, exception):
 
 
 
-def tag(request, id):
+def tag(request, tag_id):
 	template_name = 'main/tag.html'
-	products = Products.objects.filter(sub_tag__id=id)
+	products = Products.objects.filter(sub_tag__id=tag_id)
+	subtag = SubTags.objects.get(id = tag_id)
+
 	context = {
+	'subtag': subtag,
 	'products': products,
 	}
 
